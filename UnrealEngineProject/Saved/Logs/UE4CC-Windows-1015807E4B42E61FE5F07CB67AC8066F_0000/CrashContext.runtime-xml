@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-1015807E4B42E61FE5F07CB67AC8066F_0000</CrashGUID>
+		<ProcessId>44796</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>6844</SecondsSinceStart>
+		<GameName>UE4-UnrealEngineProject</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.14.1-3224400+++UE4+Release-4.14</EngineVersion>
+		<CommandLine>&quot;D:\FREE WORK\DungeonBaseBuilder\DungeonBaseBuilder\UnrealEngineProject\UnrealEngineProject.uproject&quot;</CommandLine>
+		<LanguageLCID>2057</LanguageLCID>
+		<AppDefaultLocale>en_GB</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.14-CL-3224400</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Timothy</UserName>
+		<BaseDir>D:/PROGRAM FILES/Epic Games/4.14/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>D:/PROGRAM FILES/Epic Games/4.14/</RootDir>
+		<MachineId>D4ABB60E40CBAE26AB8C8DB2DCC6B036</MachineId>
+		<EpicAccountId>cae3d72bfe5b46ac8e3acb7edb2f45cb</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<ErrorMessage>Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 624] &nl;Illegal call to DoesPackageExist: &apos;../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/UnrealEngineProject.uproject&apos; is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-3720QM CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 4000</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 8.1</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17053278208</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>5934166016</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140730921758720</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>3835813888</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>4054933504</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>5135609856</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>5430521856</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636178634366130000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 8.1  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

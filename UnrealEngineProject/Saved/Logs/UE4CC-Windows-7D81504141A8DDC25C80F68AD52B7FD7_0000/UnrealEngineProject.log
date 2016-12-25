@@ -1,0 +1,644 @@
+﻿Log file open, 12/19/16 20:48:08
+LogInit:Display: Running engine for game: UnrealEngineProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1158520558) SRandInit(-1158520558).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076686
+LogPluginManager: Loaded Plugin Paper2D, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/PROGRAM FILES/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3224400
+LogInit: Engine Version: 4.14.1-3224400+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Dec  7 2016 02:14:32
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/PROGRAM FILES/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.19-20.48.08:854][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.19-20.48.08:854][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.19-20.48.08:864][  0]LogInit: Computer: ALIENWARE
+[2016.12.19-20.48.08:864][  0]LogInit: User: Timothy
+[2016.12.19-20.48.08:864][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.19-20.48.08:864][  0]LogInit: High frequency timer resolution =2.533320 MHz
+[2016.12.19-20.48.08:865][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.19-20.48.08:865][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.19-20.48.08:865][  0]LogMemory: Process Physical Memory: 264.91 MB used, 264.91 MB peak
+[2016.12.19-20.48.08:865][  0]LogMemory: Process Virtual Memory: 263.06 MB used, 263.06 MB peak
+[2016.12.19-20.48.08:865][  0]LogMemory: Physical Memory: 8313.36 MB used,  7949.91 MB free, 16263.27 MB total
+[2016.12.19-20.48.08:865][  0]LogMemory: Virtual Memory: 656.46 MB used,  7949.91 MB free, 134217728.00 MB total
+[2016.12.19-20.48.08:895][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.12.19-20.48.09:630][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.19-20.48.10:207][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2016.12.19-20.48.10:207][  0]LogD3D11RHI:       6019/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.12.19-20.48.10:743][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2016.12.19-20.48.10:743][  0]LogD3D11RHI:       6019/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2016.12.19-20.48.10:745][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.19-20.48.10:745][  0]LogD3D11RHI:       6019/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.19-20.48.10:745][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.19-20.48.10:750][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.19-20.48.10:751][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.19-20.48.10:751][  0]LogWindows: EnumDisplayDevices:
+[2016.12.19-20.48.10:751][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:0 D:1)
+[2016.12.19-20.48.10:751][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2016.12.19-20.48.10:751][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.12.19-20.48.10:751][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2016.12.19-20.48.10:751][  0]LogWindows:    4. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2016.12.19-20.48.10:751][  0]LogWindows:    5. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2016.12.19-20.48.10:752][  0]LogWindows:    6. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2016.12.19-20.48.10:752][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.12.19-20.48.10:752][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2016.12.19-20.48.10:752][  0]LogD3D11RHI:   Driver Version: 375.63 (internal:21.21.13.7563, unified:375.63)
+[2016.12.19-20.48.10:752][  0]LogD3D11RHI:      Driver Date: 10-21-2016
+[2016.12.19-20.48.10:752][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.19-20.48.11:278][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.19-20.48.11:342][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.12.19-20.48.11:342][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Intermediate/Shaders/WorkingDirectory/122644/).
+[2016.12.19-20.48.11:343][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Timothy/AppData/Local/Temp/UnrealShaderWorkingDir/BF65B157474CECE298A424BCB65C67CB/'.
+[2016.12.19-20.48.11:343][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.19-20.48.12:946][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.19-20.48.12:991][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.12.19-20.48.13:035][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.12.19-20.48.13:080][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.12.19-20.48.13:138][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.12.19-20.48.13:187][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.19-20.48.13:235][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.19-20.48.13:291][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.19-20.48.13:329][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.19-20.48.13:379][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.19-20.48.13:433][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.19-20.48.13:479][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.19-20.48.13:523][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.19-20.48.13:567][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.19-20.48.13:612][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.19-20.48.13:700][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.19-20.48.13:700][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.19-20.48.13:726][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.19-20.48.13:796][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.19-20.48.13:842][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.19-20.48.13:897][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.19-20.48.13:944][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.19-20.48.13:992][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.19-20.48.14:039][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.19-20.48.14:039][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.19-20.48.14:306][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.19-20.48.14:366][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Timothy/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.19-20.48.14:366][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Timothy/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.12.19-20.48.14:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.19-20.48.14:366][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.19-20.48.14:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.19-20.48.14:366][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.19-20.48.14:384][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.19-20.48.14:396][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Timothy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.19-20.48.14:620][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.19-20.48.14:624][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.19-20.48.14:854][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.12.19-20.48.14:884][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.12.19-20.48.14:914][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.12.19-20.48.14:914][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.12.19-20.48.14:914][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.19-20.48.15:469][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: unrealengineproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1211331517
+[2016.12.19-20.48.15:520][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2016.12.19-20.48.15:557][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021917 seconds
+[2016.12.19-20.48.15:563][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.12.19-20.48.15:563][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2016.12.19-20.48.15:563][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.19-20.48.15:608][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.19-20.48.16:150][  0]LogSlate: Using Freetype 2.6.0
+[2016.12.19-20.48.16:150][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.19-20.48.16:150][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.19-20.48.17:011][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.12.19-20.48.17:032][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.19-20.48.17:087][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.19-20.48.17:347][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.19-20.48.17:636][  0]SourceControl: Info Source control is disabled
+[2016.12.19-20.48.17:649][  0]SourceControl: Info Source control is disabled
+[2016.12.19-20.48.17:679][  0]SourceControl: Info Source control is disabled
+[2016.12.19-20.48.17:709][  0]SourceControl: Info Source control is disabled
+[2016.12.19-20.48.18:617][  0]LogEngine: Initializing Engine...
+[2016.12.19-20.48.18:617][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.19-20.48.18:856][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.19-20.48.18:867][  0]LogInit: XAudio2 using 'Speakers (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.19-20.48.18:876][  0]LogInit: FAudioDevice initialized.
+[2016.12.19-20.48.18:900][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Timothy/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.19-20.48.18:907][  0]LogInit: Texture streaming: Enabled
+[2016.12.19-20.48.19:101][  0]LogInit: Transaction tracking system initialized
+[2016.12.19-20.48.19:322][  0]BlueprintLog: New page: Editor Load
+[2016.12.19-20.48.20:198][  0]LocalizationService: Info Localization service is disabled
+[2016.12.19-20.48.20:786][  0]LogConsoleResponse:Display: 
+[2016.12.19-20.48.21:289][  0]LogFileCache: Scanning file cache for directory 'D:/FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/' took 0.01s
+[2016.12.19-20.48.21:289][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.19-20.48.21:289][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.19-20.48.21:996][  0]SourceControl: Info Source control is disabled
+[2016.12.19-20.48.22:490][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/PROGRAM FILES/Epic Games/4.14/FeaturePacks/StarterContent.upack)
+[2016.12.19-20.48.22:654][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.12.19-20.48.22:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.12.19-20.48.22:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.12.19-20.48.22:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.12.19-20.48.22:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.12.19-20.48.22:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.12.19-20.48.22:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.12.19-20.48.22:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.12.19-20.48.22:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.12.19-20.48.22:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.12.19-20.48.22:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.12.19-20.48.22:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.12.19-20.48.22:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.12.19-20.48.22:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.12.19-20.48.22:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.12.19-20.48.22:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.12.19-20.48.22:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.12.19-20.48.22:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.12.19-20.48.22:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Fire01.uasset"
+[2016.12.19-20.48.22:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.12.19-20.48.22:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.12.19-20.48.22:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.12.19-20.48.22:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Light01.uasset"
+[2016.12.19-20.48.22:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.12.19-20.48.22:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Light02.uasset"
+[2016.12.19-20.48.22:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.12.19-20.48.22:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.12.19-20.48.22:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.12.19-20.48.22:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.12.19-20.48.22:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.12.19-20.48.22:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.12.19-20.48.22:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.12.19-20.48.22:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.12.19-20.48.22:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.12.19-20.48.22:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Steam01.uasset"
+[2016.12.19-20.48.22:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.12.19-20.48.22:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.12.19-20.48.22:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.12.19-20.48.22:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.12.19-20.48.22:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.12.19-20.48.22:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.12.19-20.48.22:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.12.19-20.48.22:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.12.19-20.48.22:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.12.19-20.48.22:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.12.19-20.48.22:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.12.19-20.48.22:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.12.19-20.48.22:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.12.19-20.48.22:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.12.19-20.48.22:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.12.19-20.48.22:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.12.19-20.48.22:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.12.19-20.48.22:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.12.19-20.48.22:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.12.19-20.48.22:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.12.19-20.48.22:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Maps/StarterMap.umap"
+[2016.12.19-20.48.22:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.12.19-20.48.22:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.12.19-20.48.22:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.12.19-20.48.22:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.12.19-20.48.22:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.12.19-20.48.22:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.12.19-20.48.22:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.12.19-20.48.22:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.12.19-20.48.22:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.12.19-20.48.22:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.12.19-20.48.22:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.12.19-20.48.22:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.12.19-20.48.22:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.12.19-20.48.22:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.12.19-20.48.22:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.12.19-20.48.22:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.12.19-20.48.22:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.12.19-20.48.22:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.12.19-20.48.22:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.12.19-20.48.22:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.12.19-20.48.22:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.12.19-20.48.22:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.12.19-20.48.22:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.12.19-20.48.22:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.12.19-20.48.22:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.12.19-20.48.22:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.12.19-20.48.22:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.12.19-20.48.22:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.12.19-20.48.22:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.12.19-20.48.22:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.12.19-20.48.22:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.12.19-20.48.22:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.12.19-20.48.22:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.12.19-20.48.22:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.12.19-20.48.22:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.12.19-20.48.22:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.12.19-20.48.22:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.12.19-20.48.22:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.12.19-20.48.22:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.12.19-20.48.22:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.12.19-20.48.22:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.12.19-20.48.22:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.12.19-20.48.22:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.12.19-20.48.22:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.12.19-20.48.22:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.12.19-20.48.22:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.12.19-20.48.22:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.12.19-20.48.22:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.12.19-20.48.22:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.12.19-20.48.22:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.12.19-20.48.22:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.12.19-20.48.22:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.12.19-20.48.22:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.12.19-20.48.22:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.12.19-20.48.22:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.12.19-20.48.22:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.12.19-20.48.22:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.12.19-20.48.22:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.12.19-20.48.22:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.12.19-20.48.22:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.12.19-20.48.22:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.12.19-20.48.22:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.12.19-20.48.22:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.12.19-20.48.22:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.12.19-20.48.22:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Door.uasset"
+[2016.12.19-20.48.22:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.12.19-20.48.22:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.12.19-20.48.22:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.12.19-20.48.22:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.12.19-20.48.22:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.12.19-20.48.22:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.12.19-20.48.22:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.12.19-20.48.22:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.12.19-20.48.22:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.12.19-20.48.22:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.12.19-20.48.22:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.12.19-20.48.22:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.12.19-20.48.22:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.12.19-20.48.22:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.12.19-20.48.22:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.12.19-20.48.22:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.12.19-20.48.22:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.12.19-20.48.22:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.12.19-20.48.22:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.12.19-20.48.22:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.12.19-20.48.22:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.12.19-20.48.22:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.12.19-20.48.22:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.12.19-20.48.22:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.12.19-20.48.22:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.12.19-20.48.22:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.12.19-20.48.22:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.12.19-20.48.22:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.12.19-20.48.22:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.12.19-20.48.22:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.12.19-20.48.22:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.12.19-20.48.22:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.12.19-20.48.22:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.12.19-20.48.22:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.12.19-20.48.22:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.12.19-20.48.22:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.12.19-20.48.22:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.12.19-20.48.22:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.12.19-20.48.22:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.12.19-20.48.22:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.12.19-20.48.22:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.12.19-20.48.22:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.12.19-20.48.22:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.12.19-20.48.22:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.12.19-20.48.23:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.12.19-20.48.23:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.12.19-20.48.23:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.12.19-20.48.23:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.12.19-20.48.23:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.12.19-20.48.23:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.12.19-20.48.23:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.12.19-20.48.23:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.12.19-20.48.23:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.12.19-20.48.23:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.12.19-20.48.23:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.12.19-20.48.23:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.12.19-20.48.23:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.12.19-20.48.23:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.12.19-20.48.23:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.12.19-20.48.23:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.12.19-20.48.23:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.12.19-20.48.23:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.12.19-20.48.23:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.12.19-20.48.23:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.12.19-20.48.23:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.12.19-20.48.23:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.12.19-20.48.23:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.12.19-20.48.23:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.12.19-20.48.23:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.12.19-20.48.23:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.12.19-20.48.23:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.12.19-20.48.23:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.12.19-20.48.23:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.12.19-20.48.23:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.12.19-20.48.23:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.12.19-20.48.23:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.12.19-20.48.23:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.12.19-20.48.23:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.12.19-20.48.23:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.12.19-20.48.23:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.12.19-20.48.23:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.12.19-20.48.23:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.12.19-20.48.23:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.12.19-20.48.23:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.12.19-20.48.23:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.12.19-20.48.23:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.12.19-20.48.23:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.12.19-20.48.23:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.12.19-20.48.23:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.12.19-20.48.23:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.12.19-20.48.23:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.12.19-20.48.23:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.12.19-20.48.23:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.12.19-20.48.23:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.12.19-20.48.23:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.12.19-20.48.23:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.12.19-20.48.23:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.12.19-20.48.23:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.12.19-20.48.23:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.12.19-20.48.23:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.12.19-20.48.23:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.12.19-20.48.23:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.12.19-20.48.23:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.12.19-20.48.23:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.12.19-20.48.23:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.12.19-20.48.23:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.12.19-20.48.23:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.12.19-20.48.23:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.12.19-20.48.23:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.12.19-20.48.23:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.12.19-20.48.23:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.12.19-20.48.23:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.12.19-20.48.23:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.12.19-20.48.23:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.12.19-20.48.23:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.12.19-20.48.23:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.12.19-20.48.23:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.12.19-20.48.23:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.12.19-20.48.23:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.12.19-20.48.23:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.12.19-20.48.23:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.12.19-20.48.23:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.12.19-20.48.23:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.12.19-20.48.23:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.12.19-20.48.23:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.12.19-20.48.23:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.12.19-20.48.23:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.12.19-20.48.23:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.12.19-20.48.23:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.12.19-20.48.23:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.12.19-20.48.23:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.12.19-20.48.23:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.12.19-20.48.23:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.12.19-20.48.23:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.12.19-20.48.23:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.12.19-20.48.23:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.12.19-20.48.23:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.12.19-20.48.23:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.12.19-20.48.23:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.12.19-20.48.23:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.12.19-20.48.23:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.12.19-20.48.23:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.12.19-20.48.23:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.12.19-20.48.23:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.12.19-20.48.23:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.12.19-20.48.23:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.12.19-20.48.23:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.12.19-20.48.37:188][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2016.12.19-20.48.40:036][  0]LogSavePackage: Save=260.69ms
+[2016.12.19-20.48.40:036][  0]LogSavePackage: Moving '../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Saved/Floor_400x4008B2144984A1CFBD30F19939DA7C40103.tmp' to '../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.12.19-20.48.40:038][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.12.19-20.48.40:038][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.12.19-20.48.40:054][  0]Cmd: MAP LOAD FILE="../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.19-20.48.40:055][  0]LightingResults: New page: Lighting Build
+[2016.12.19-20.48.40:083][  0]MapCheck: New page: Map Check
+[2016.12.19-20.48.40:083][  0]LightingResults: New page: Lighting Build
+[2016.12.19-20.48.42:505][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.12.19-20.48.42:638][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.12.19-20.48.42:671][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.12.19-20.48.42:786][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.12.19-20.48.42:818][  0]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2016.12.19-20.48.43:032][  0]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2016.12.19-20.48.43:387][  0]LogTexture:Display: Building textures: UE4_LOGO_CARD (AutoDXT)
+[2016.12.19-20.48.43:698][  0]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5)
+[2016.12.19-20.48.44:004][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.12.19-20.48.44:221][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.12.19-20.48.44:291][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.12.19-20.48.44:315][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.12.19-20.48.44:407][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.12.19-20.48.44:445][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.12.19-20.48.44:457][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.12.19-20.48.44:579][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.12.19-20.48.44:609][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.12.19-20.48.44:618][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.12.19-20.48.44:693][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.12.19-20.48.44:704][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.12.19-20.48.45:461][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.19-20.48.45:491][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.19-20.48.45:525][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.735ms to complete.
+[2016.12.19-20.48.45:525][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.472
+[2016.12.19-20.48.48:487][  0]LogCollectionManager: Loaded 0 collections in 0.000743 seconds
+[2016.12.19-20.48.49:152][  0]LogFileCache: Scanning file cache for directory 'D:/FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Saved/Collections/' took 0.01s
+[2016.12.19-20.48.49:152][  0]LogFileCache: Scanning file cache for directory 'D:/FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/Developers/Timothy/Collections/' took 0.01s
+[2016.12.19-20.48.49:152][  0]LogFileCache: Scanning file cache for directory 'D:/FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/Content/Collections/' took 0.01s
+[2016.12.19-20.48.49:152][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.12.19-20.48.49:243][  0]LogContentBrowser: Native class hierarchy populated in 0.0571 seconds. Added 2205 classes and 434 folders.
+[2016.12.19-20.48.49:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.19-20.48.49:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.19-20.48.49:530][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 13 classes and 0 folders.
+[2016.12.19-20.48.49:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.12.19-20.48.49:641][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.12.19-20.48.49:822][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.12.19-20.48.53:477][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.19-20.48.53:868][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.19-20.48.54:346][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.12.19-20.48.54:346][  0]LogLoad: (Engine Initialization) Total time: 47.09 seconds
+[2016.12.19-20.48.54:346][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.17 seconds
+[2016.12.19-20.48.54:346][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.19-20.48.54:346][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.19-20.48.54:686][  0]LogOcInput: OculusInput pre-init called
+[2016.12.19-20.48.55:318][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.19-20.48.56:643][  0]LogRenderer: Reallocating scene render targets to support 1312x648 NumSamples 1 (Frame:3).
+[2016.12.19-20.48.57:173][  2]LogAssetRegistry: Asset discovery search completed in 41.6766 seconds
+[2016.12.19-20.48.57:173][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.19-20.48.57:173][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.12.19-20.49.03:005][118]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.19-20.49.03:048][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.12.19-20.49.03:088][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.19-20.49.03:175][118]PIE: New page: PIE session: ThirdPersonExampleMap (19 Dec 2016 20:49:03)
+[2016.12.19-20.49.03:187][118]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.12.19-20.49.03:303][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116857s)
+[2016.12.19-20.49.03:318][118]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.12.19-20.49.03:330][118]LogPlayLevel: PIE: World Init took: (0.026631s)
+[2016.12.19-20.49.03:331][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.144262s)
+[2016.12.19-20.49.03:415][118]LogInit: XAudio2 using 'Speakers (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.19-20.49.03:419][118]LogInit: FAudioDevice initialized.
+[2016.12.19-20.49.03:832][118]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2016.12.19-20.49.03:997][118]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.12.19-20.49.03
+[2016.12.19-20.49.04:064][118]LogWorld: Bringing up level for play took: 0.095497
+[2016.12.19-20.49.04:540][118]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2016.12.19-20.49.04:633][118]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.54
+[2016.12.19-20.49.04:634][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.12.19-20.49.09:536][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.12.19-20.49.09:697][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.12.19-20.49.27:094][384]SourceControl: Info On branch master
+[2016.12.19-20.49.27:094][384]SourceControl: Info Untracked files:
+[2016.12.19-20.49.27:094][384]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.12.19-20.49.27:094][384]SourceControl: Info 	UnrealEngineProject/
+[2016.12.19-20.49.27:094][384]SourceControl: Info nothing added to commit but untracked files present (use "git add" to track)
+[2016.12.19-20.49.32:451][683]SourceControl: Info fatal: D:/PROGRAM FILES/Epic Games/4.14/Engine/Content/: 'D:/PROGRAM FILES/Epic Games/4.14/Engine/Content/' is outside repository
+[2016.12.19-20.49.32:552][683]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/UnrealEngineProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2016.12.19-20.49.32:725][683]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.150 s
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: === Handled ensure: ===
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: 
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 624]
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../FREE WORK/DungeonBaseBuilder/DungeonBaseBuilder/UnrealEngineProject/UnrealEngineProject.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: Stack: 
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-Core.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-Core.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-Core.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-CoreUObject.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-SourceControl.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor-UnrealEd.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor.exe
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor.exe
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor.exe
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor.exe
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: UE4Editor.exe
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: KERNEL32.DLL
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: ntdll.dll
+[2016.12.19-20.49.32:725][683]LogOutputDevice:Error: 
+[2016.12.19-20.49.32:729][683]LogStats:                SubmitErrorReport -  0.000 s
